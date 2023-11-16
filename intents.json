@@ -1,0 +1,187 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "easy register",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "hello",
+                        "how are you",
+                        "say hi world",
+                        "say hi",
+                        "hi",
+                        "say hello world",
+                        "say hello"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SignInIntent",
+                    "slots": [],
+                    "samples": [
+                        "Open Locker",
+                        "Log In",
+                        "Sign In"
+                    ]
+                },
+                {
+                    "name": "SignUpIntent",
+                    "slots": [],
+                    "samples": [
+                        "Create Locker",
+                        "Sign Up"
+                    ]
+                },
+                {
+                    "name": "askNameIntent",
+                    "slots": [
+                        {
+                            "name": "studentName",
+                            "type": "AMAZON.FirstName"
+                        }
+                    ],
+                    "samples": [
+                        "I am {studentName}",
+                        "My name is {studentName}"
+                    ]
+                },
+                {
+                    "name": "storeStudentIntent",
+                    "slots": [],
+                    "samples": [
+                        "Confirm"
+                    ]
+                },
+                {
+                    "name": "checkIDIntent",
+                    "slots": [
+                        {
+                            "name": "studentID",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "my locker number is {studentID}"
+                    ]
+                },
+                {
+                    "name": "askIDIntent",
+                    "slots": [
+                        {
+                            "name": "studentID",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "my student ID is {studentID}",
+                        "my ID is {studentID}"
+                    ]
+                },
+                {
+                    "name": "askHomeNumIntent",
+                    "slots": [
+                        {
+                            "name": "studentHomeNum",
+                            "type": "AMAZON.PhoneNumber"
+                        }
+                    ],
+                    "samples": [
+                        "my home phone number is {studentHomeNum}",
+                        "my landline number is {studentHomeNum}",
+                        "my home number is {studentHomeNum}"
+                    ]
+                },
+                {
+                    "name": "askCellNumIntent",
+                    "slots": [
+                        {
+                            "name": "studentCellNum",
+                            "type": "AMAZON.PhoneNumber"
+                        }
+                    ],
+                    "samples": [
+                        "my cell number is {studentCellNum}",
+                        "my personal number is {studentCellNum}"
+                    ]
+                },
+                {
+                    "name": "askEmailIntent",
+                    "slots": [
+                        {
+                            "name": "studentEmail",
+                            "type": "AMAZON.PhoneNumber"
+                        }
+                    ],
+                    "samples": [
+                        "my email is {studentEmail}",
+                        "my email address is {studentEmail}"
+                    ]
+                },
+                {
+                    "name": "testIntent",
+                    "slots": [],
+                    "samples": [
+                        "start test"
+                    ]
+                },
+                {
+                    "name": "askLockerNumIntent",
+                    "slots": [
+                        {
+                            "name": "locker_ID",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "student_id",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "my student id is {student_id} and my locker PIN is {locker_ID}"
+                    ]
+                },
+                {
+                    "name": "cancelLockerIntent",
+                    "slots": [],
+                    "samples": [
+                        "cancel locker"
+                    ]
+                },
+                {
+                    "name": "confirmationIntent",
+                    "slots": [
+                        {
+                            "name": "studentAddress",
+                            "type": "AMAZON.StreetName"
+                        }
+                    ],
+                    "samples": [
+                        "my address is {studentAddress}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
